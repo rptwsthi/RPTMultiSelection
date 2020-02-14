@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/RPTMultiSelection.svg?style=flat)](https://cocoapods.org/pods/RPTMultiSelection)
 [![Platform](https://img.shields.io/cocoapods/p/RPTMultiSelection.svg?style=flat)](https://cocoapods.org/pods/RPTMultiSelection)
 
+## Why?
+Multi-selection input view that helps creating custom selection input view.
+
+This works mainly as default component such as UIPickerView  and UITableView. You have to work with delegates for setting values and updating data model. All it gives is failsafe and semi tested component that I have been using in some of my projects.
+
+![In action](https://github.com/rptwsthi/RPTMultiSelection/blob/master/Example/Tests/HowItWorks.gif)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![How to use](https://github.com/rptwsthi/RPTMultiSelection/blob/master/Example/Tests/HowToUse.png)
+
+Also check `ViewController.swift`. In example view.
 
 ## Installation
 

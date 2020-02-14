@@ -9,35 +9,37 @@
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09928F50678BF7FC0AA31AF928676048 /* Pods-RPTMultiSelection_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7813240E068AA7C6F8907FDFAA7DB9E /* Pods-RPTMultiSelection_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AE84E0476DCDEE3D5246C38551C9311 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B01F47F670E66DA11DC2C93EBE062A /* ReplaceMe.swift */; };
-		10E450845401C8BFAA688521703277F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		3B287705195418A7E7A164CE43498AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		3D9E1FE7079892D7C800DC2DB48C8656 /* RPTMultiSelection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3777DE48F1B9F2EF5D4C1F18C9FAF35C /* RPTMultiSelection-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4769B712E8335EE895A64899A1D522C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		4D87E3294DD47A8D663AF40480E273C6 /* Pods-RPTMultiSelection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE3374D4F55E34EDCC395CE8C1ED8F9 /* Pods-RPTMultiSelection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		625A409456A267F70EDE923B9C8A265F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		827195C7D1AAE741464FCE3C36F89F54 /* RPTMultiSelection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6161935140CE1802377B2D92D2C0C1C2 /* RPTMultiSelection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E68D43FBBB2F6400822924C7F660224 /* RPTMultiSelection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAD74C3CFED9F15223F3A6D45804EB6 /* RPTMultiSelection-dummy.m */; };
+		863159B68349CF45C5A06816CDB4028E /* RPTMultiSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F0D313B1D7850BA54B54D73A710AB1 /* RPTMultiSelection.swift */; };
 		86F1D3911C011DDDC4EAA3592CE5E09B /* Pods-RPTMultiSelection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EAA3E87395E3F8EBBB1BB9C41F187B /* Pods-RPTMultiSelection_Tests-dummy.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A755B470F7EE840C03744DA2976950D /* RPTMSCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9CECBB4343174F7A83F8D3EFAE31A6F5 /* RPTMSCell.xib */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DAF4DE90706A728B36036CAC8BDC3981 /* RPTMultiSelection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98747E87E26ED7A50AC2A8D6F5957AB /* RPTMultiSelection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
 		ECD964DAA2D641E09D5AF3629A712F8E /* Pods-RPTMultiSelection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E285A3CB1C7BE2A56CC04C545ABE2 /* Pods-RPTMultiSelection_Example-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFC4F8B08F4D90FBE7714635238E43A /* RPTMultiSelection.xib in Sources */ = {isa = PBXBuildFile; fileRef = E1E0A3A6F999A9B35511B67DC7B86F78 /* RPTMultiSelection.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,61 +70,63 @@
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		1DF6EDFDE28B8075B8A3774E2AEFE68C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1EE3374D4F55E34EDCC395CE8C1ED8F9 /* Pods-RPTMultiSelection_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPTMultiSelection_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2486ACE8769B4C16467E47B30B007561 /* Pods-RPTMultiSelection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPTMultiSelection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C039D9C9D2FA712649E94C7FDABA3D2 /* RPTMultiSelection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPTMultiSelection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		318535205383933AE338A22C2DD567C3 /* Pods-RPTMultiSelection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPTMultiSelection_Example-frameworks.sh"; sourceTree = "<group>"; };
-		31B01F47F670E66DA11DC2C93EBE062A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RPTMultiSelection/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		3777DE48F1B9F2EF5D4C1F18C9FAF35C /* RPTMultiSelection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPTMultiSelection-dummy.m"; sourceTree = "<group>"; };
 		39888966182A7B72D4825DD88BF9550B /* Pods-RPTMultiSelection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPTMultiSelection_Tests.modulemap"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		44A288F7BE87DCFBE129576658010054 /* Pods-RPTMultiSelection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPTMultiSelection_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4742F100816C660E8CFEC8FC7E7B9FDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B2E285A3CB1C7BE2A56CC04C545ABE2 /* Pods-RPTMultiSelection_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPTMultiSelection_Example-dummy.m"; sourceTree = "<group>"; };
 		506EC13C96101F3822E3946CB0F76CAA /* Pods-RPTMultiSelection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPTMultiSelection_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6161935140CE1802377B2D92D2C0C1C2 /* RPTMultiSelection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPTMultiSelection-umbrella.h"; sourceTree = "<group>"; };
 		63DC7232153115C1721A927768FEBDC7 /* Pods-RPTMultiSelection_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPTMultiSelection_Tests-Info.plist"; sourceTree = "<group>"; };
 		6561B183AD91C42F19F50EB8B1ADFDA0 /* Pods-RPTMultiSelection_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPTMultiSelection_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BAD74C3CFED9F15223F3A6D45804EB6 /* RPTMultiSelection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPTMultiSelection-dummy.m"; sourceTree = "<group>"; };
 		6D6D521D1E7314E7E9591C18E8D335C5 /* Pods-RPTMultiSelection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPTMultiSelection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		749C5A39F67857236EE999976EE5FE67 /* Pods-RPTMultiSelection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPTMultiSelection_Example.modulemap"; sourceTree = "<group>"; };
-		7ACE84998496CD49174C5320C6B68F44 /* RPTMultiSelection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPTMultiSelection.xcconfig; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		8FA1A7140598DF3F821BD8A052E50113 /* RPTMultiSelection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPTMultiSelection-prefix.pch"; sourceTree = "<group>"; };
 		90A027573B6A26B431D4578C854D0377 /* Pods-RPTMultiSelection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPTMultiSelection_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93895FC14F370917C99E853E1D73D4C0 /* RPTMultiSelection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPTMultiSelection-Info.plist"; sourceTree = "<group>"; };
 		975F6E0AA5BA06B66F125135589E9354 /* Pods-RPTMultiSelection_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPTMultiSelection_Example-Info.plist"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		9BF0C26F3417BF42A78924A9B5FA0862 /* Pods-RPTMultiSelection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPTMultiSelection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CECBB4343174F7A83F8D3EFAE31A6F5 /* RPTMSCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RPTMSCell.xib; path = RPTMultiSelection/Classes/RPTMSCell.xib; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A9F0D313B1D7850BA54B54D73A710AB1 /* RPTMultiSelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPTMultiSelection.swift; path = RPTMultiSelection/Classes/RPTMultiSelection.swift; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		ACECEDF0AC224E23CB05C620882870DE /* Pods_RPTMultiSelection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPTMultiSelection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		BA8A46130FD573247C4B9D9CB1DA9572 /* Pods-RPTMultiSelection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPTMultiSelection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BD3D35BE6D7AE9002546F5BCF235C32A /* RPTMultiSelection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPTMultiSelection.modulemap; sourceTree = "<group>"; };
-		BDF83F2BAEB126738A10525134BC8B96 /* RPTMultiSelection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RPTMultiSelection.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7EAA3E87395E3F8EBBB1BB9C41F187B /* Pods-RPTMultiSelection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPTMultiSelection_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE74A4CB7F3ED21E2BB8218C5A91F6A7 /* RPTMultiSelection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPTMultiSelection.modulemap; sourceTree = "<group>"; };
 		CF0590BFD075B81665F6A070851137F5 /* Pods-RPTMultiSelection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPTMultiSelection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFDA96C0F08F26BEB4E1273EFF259CEE /* RPTMultiSelection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPTMultiSelection.xcconfig; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		D6D4E1F6A56D4ADCE345D1F7847158CB /* RPTMultiSelection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RPTMultiSelection-Info.plist"; sourceTree = "<group>"; };
+		D8C150582407B984835979292F1DBFCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D98747E87E26ED7A50AC2A8D6F5957AB /* RPTMultiSelection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPTMultiSelection-umbrella.h"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E1E0A3A6F999A9B35511B67DC7B86F78 /* RPTMultiSelection.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RPTMultiSelection.xib; path = RPTMultiSelection/Classes/RPTMultiSelection.xib; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E63B07A25D0AD180F8F9AEADBD1273BA /* RPTMultiSelection.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RPTMultiSelection.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7813240E068AA7C6F8907FDFAA7DB9E /* Pods-RPTMultiSelection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPTMultiSelection_Example-umbrella.h"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F81DF846245A9F065FB8D71114F29064 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FCD2B7AFB7D6DCDDE83099D86751C079 /* Pods_RPTMultiSelection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPTMultiSelection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFD4919006E9820B1B98BB7FB22678E4 /* RPTMultiSelection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPTMultiSelection-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +146,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56460C7B541C025B3D03A8571B4530BE /* Frameworks */ = {
+		DBD37E9948DB99A5E22CD3EDD10FDA35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10E450845401C8BFAA688521703277F7 /* Foundation.framework in Frameworks */,
+				4769B712E8335EE895A64899A1D522C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,27 +185,6 @@
 			path = "Target Support Files/Pods-RPTMultiSelection_Tests";
 			sourceTree = "<group>";
 		};
-		22767F15F1E15A6A7D04E71FCEC9CEBF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1DF6EDFDE28B8075B8A3774E2AEFE68C /* LICENSE */,
-				F81DF846245A9F065FB8D71114F29064 /* README.md */,
-				BDF83F2BAEB126738A10525134BC8B96 /* RPTMultiSelection.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		35A5219ECE8C5A7DA2FEBA4B3AA3525A /* RPTMultiSelection */ = {
-			isa = PBXGroup;
-			children = (
-				31B01F47F670E66DA11DC2C93EBE062A /* ReplaceMe.swift */,
-				22767F15F1E15A6A7D04E71FCEC9CEBF /* Pod */,
-				CDCB2DDA129D73781D8CDA5E6BA9582F /* Support Files */,
-			);
-			name = RPTMultiSelection;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +197,33 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		47F0E562D41BB4F428BD2C20EFCB6FE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE74A4CB7F3ED21E2BB8218C5A91F6A7 /* RPTMultiSelection.modulemap */,
+				CFDA96C0F08F26BEB4E1273EFF259CEE /* RPTMultiSelection.xcconfig */,
+				6BAD74C3CFED9F15223F3A6D45804EB6 /* RPTMultiSelection-dummy.m */,
+				93895FC14F370917C99E853E1D73D4C0 /* RPTMultiSelection-Info.plist */,
+				8FA1A7140598DF3F821BD8A052E50113 /* RPTMultiSelection-prefix.pch */,
+				D98747E87E26ED7A50AC2A8D6F5957AB /* RPTMultiSelection-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RPTMultiSelection";
+			sourceTree = "<group>";
+		};
+		58CF95054F487E1C93010BAB8A7D7F5B /* RPTMultiSelection */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0D313B1D7850BA54B54D73A710AB1 /* RPTMultiSelection.swift */,
+				9CECBB4343174F7A83F8D3EFAE31A6F5 /* RPTMSCell.xib */,
+				E1E0A3A6F999A9B35511B67DC7B86F78 /* RPTMultiSelection.xib */,
+				B108FE201010BAC2EA202C85EB567D12 /* Pod */,
+				47F0E562D41BB4F428BD2C20EFCB6FE4 /* Support Files */,
+			);
+			name = RPTMultiSelection;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		73D15B9B9E03FC3BA56F649C098F3D21 /* Pods-RPTMultiSelection_Example */ = {
@@ -292,6 +302,16 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		B108FE201010BAC2EA202C85EB567D12 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8C150582407B984835979292F1DBFCF /* LICENSE */,
+				4742F100816C660E8CFEC8FC7E7B9FDA /* README.md */,
+				E63B07A25D0AD180F8F9AEADBD1273BA /* RPTMultiSelection.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		B190DBACF701D73FA2608149FBC051F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +323,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B945514B81CFEF3E4903B0F92F7C45FF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CF95054F487E1C93010BAB8A7D7F5B /* RPTMultiSelection */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,25 +339,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CDCB2DDA129D73781D8CDA5E6BA9582F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD3D35BE6D7AE9002546F5BCF235C32A /* RPTMultiSelection.modulemap */,
-				7ACE84998496CD49174C5320C6B68F44 /* RPTMultiSelection.xcconfig */,
-				3777DE48F1B9F2EF5D4C1F18C9FAF35C /* RPTMultiSelection-dummy.m */,
-				D6D4E1F6A56D4ADCE345D1F7847158CB /* RPTMultiSelection-Info.plist */,
-				FFD4919006E9820B1B98BB7FB22678E4 /* RPTMultiSelection-prefix.pch */,
-				6161935140CE1802377B2D92D2C0C1C2 /* RPTMultiSelection-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RPTMultiSelection";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FD0606A96342E957BFE9F4688349B5AC /* Development Pods */,
+				B945514B81CFEF3E4903B0F92F7C45FF /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				B190DBACF701D73FA2608149FBC051F8 /* Products */,
@@ -345,25 +359,9 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FD0606A96342E957BFE9F4688349B5AC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				35A5219ECE8C5A7DA2FEBA4B3AA3525A /* RPTMultiSelection */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E0DB7FD70C8876848B37C0EACF42366 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				827195C7D1AAE741464FCE3C36F89F54 /* RPTMultiSelection-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +374,14 @@
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A6A5E10F032BD505B6B0645BD6DA2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF4DE90706A728B36036CAC8BDC3981 /* RPTMultiSelection-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +445,12 @@
 		};
 		90FC270830D109ADBDD1F2456ED88BC5 /* RPTMultiSelection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AB12494DB248F684541B33971BBD7D6 /* Build configuration list for PBXNativeTarget "RPTMultiSelection" */;
+			buildConfigurationList = F52E8A6A4419744A839593A436AD5375 /* Build configuration list for PBXNativeTarget "RPTMultiSelection" */;
 			buildPhases = (
-				1E0DB7FD70C8876848B37C0EACF42366 /* Headers */,
-				37A254D734C034872B7E0109CCE9C2D2 /* Sources */,
-				56460C7B541C025B3D03A8571B4530BE /* Frameworks */,
-				734DB18F8D27E0740987599BA1D479AF /* Resources */,
+				65A6A5E10F032BD505B6B0645BD6DA2E /* Headers */,
+				CD215EAF6653AA8DAF6AC288DABE185D /* Sources */,
+				DBD37E9948DB99A5E22CD3EDD10FDA35 /* Frameworks */,
+				9F47721A75B6D0687B10F1E4EA6E5664 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -481,14 +487,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					90FC270830D109ADBDD1F2456ED88BC5 = {
-						LastSwiftMigration = 1120;
-					};
-					98A98149697C80CEF8D5772791E92E66 = {
-						LastSwiftMigration = 1120;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -533,7 +531,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		734DB18F8D27E0740987599BA1D479AF /* Resources */ = {
+		9F47721A75B6D0687B10F1E4EA6E5664 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -543,15 +541,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37A254D734C034872B7E0109CCE9C2D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AE84E0476DCDEE3D5246C38551C9311 /* ReplaceMe.swift in Sources */,
-				3D9E1FE7079892D7C800DC2DB48C8656 /* RPTMultiSelection-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48E9F6A0441B7B08A1142516EBCAF3A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -573,6 +562,17 @@
 				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
 				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
 				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD215EAF6653AA8DAF6AC288DABE185D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A755B470F7EE840C03744DA2976950D /* RPTMSCell.xib in Sources */,
+				6E68D43FBBB2F6400822924C7F660224 /* RPTMultiSelection-dummy.m in Sources */,
+				863159B68349CF45C5A06816CDB4028E /* RPTMultiSelection.swift in Sources */,
+				FAFC4F8B08F4D90FBE7714635238E43A /* RPTMultiSelection.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,9 +642,9 @@
 			};
 			name = Release;
 		};
-		3D9AE16EDF7884844C34E64C7EF95A37 /* Debug */ = {
+		16F900D27FADCE236F02951F0D6A53B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ACE84998496CD49174C5320C6B68F44 /* RPTMultiSelection.xcconfig */;
+			baseConfigurationReference = CFDA96C0F08F26BEB4E1273EFF259CEE /* RPTMultiSelection.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -663,6 +663,37 @@
 				MODULEMAP_FILE = "Target Support Files/RPTMultiSelection/RPTMultiSelection.modulemap";
 				PRODUCT_MODULE_NAME = RPTMultiSelection;
 				PRODUCT_NAME = RPTMultiSelection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F429C43242CE8945CFCCC1CA1AEE899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -707,6 +738,38 @@
 			};
 			name = Release;
 		};
+		48F65A63482366B30F80726E32CDD68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		68FE4BA5710829925DDD5B34A2BB569C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA8A46130FD573247C4B9D9CB1DA9572 /* Pods-RPTMultiSelection_Tests.debug.xcconfig */;
@@ -740,70 +803,6 @@
 			};
 			name = Debug;
 		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EA3DE57C23304BC07DC49EEBC391607 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ACE84998496CD49174C5320C6B68F44 /* RPTMultiSelection.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RPTMultiSelection/RPTMultiSelection-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RPTMultiSelection/RPTMultiSelection-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RPTMultiSelection/RPTMultiSelection.modulemap";
-				PRODUCT_MODULE_NAME = RPTMultiSelection;
-				PRODUCT_NAME = RPTMultiSelection;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		8FC0CFBB4C457D04FF4E95F0610AE721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 506EC13C96101F3822E3946CB0F76CAA /* Pods-RPTMultiSelection_Example.debug.xcconfig */;
@@ -836,6 +835,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A08894F9D9B0E10488585D0D47CF6D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDA96C0F08F26BEB4E1273EFF259CEE /* RPTMultiSelection.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RPTMultiSelection/RPTMultiSelection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RPTMultiSelection/RPTMultiSelection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RPTMultiSelection/RPTMultiSelection.modulemap";
+				PRODUCT_MODULE_NAME = RPTMultiSelection;
+				PRODUCT_NAME = RPTMultiSelection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -960,49 +991,9 @@
 			};
 			name = Debug;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AB12494DB248F684541B33971BBD7D6 /* Build configuration list for PBXNativeTarget "RPTMultiSelection" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9AE16EDF7884844C34E64C7EF95A37 /* Debug */,
-				7EA3DE57C23304BC07DC49EEBC391607 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1033,8 +1024,17 @@
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
+				3F429C43242CE8945CFCCC1CA1AEE899 /* Debug */,
+				48F65A63482366B30F80726E32CDD68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52E8A6A4419744A839593A436AD5375 /* Build configuration list for PBXNativeTarget "RPTMultiSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F900D27FADCE236F02951F0D6A53B0 /* Debug */,
+				A08894F9D9B0E10488585D0D47CF6D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

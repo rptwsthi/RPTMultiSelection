@@ -14,9 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9313DE8823F5952D00F24767 /* RPTMSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9313DE8723F5952D00F24767 /* RPTMSCell.xib */; };
-		93E8B79123F1867C0084AC74 /* RPTMultiSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E8B79023F1867C0084AC74 /* RPTMultiSelection.swift */; };
-		93E8B79323F18B3E0084AC74 /* RPTMultiSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E8B79223F18B3E0084AC74 /* RPTMultiSelection.xib */; };
+		939C59D123F6D5A600121CFD /* HowToUse.png in Resources */ = {isa = PBXBuildFile; fileRef = 939C59CF23F6D5A600121CFD /* HowToUse.png */; };
+		939C59D223F6D5A600121CFD /* HowItWorks.gif in Resources */ = {isa = PBXBuildFile; fileRef = 939C59D023F6D5A600121CFD /* HowItWorks.gif */; };
 		A78F7EB218ACBBEA8855DEC0 /* Pods_RPTMultiSelection_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D783E56C20AE4C095F91CDEE /* Pods_RPTMultiSelection_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C9023406BCE476D836338A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9313DE8723F5952D00F24767 /* RPTMSCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RPTMSCell.xib; sourceTree = "<group>"; };
-		93E8B79023F1867C0084AC74 /* RPTMultiSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPTMultiSelection.swift; sourceTree = "<group>"; };
-		93E8B79223F18B3E0084AC74 /* RPTMultiSelection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RPTMultiSelection.xib; sourceTree = "<group>"; };
+		939C59CF23F6D5A600121CFD /* HowToUse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HowToUse.png; sourceTree = "<group>"; };
+		939C59D023F6D5A600121CFD /* HowItWorks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HowItWorks.gif; sourceTree = "<group>"; };
 		B3A3E9619A50A328056DA765 /* Pods-RPTMultiSelection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPTMultiSelection_Example.release.xcconfig"; path = "Target Support Files/Pods-RPTMultiSelection_Example/Pods-RPTMultiSelection_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D783E56C20AE4C095F91CDEE /* Pods_RPTMultiSelection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPTMultiSelection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA73FDC91D6E76450B7BEE17 /* Pods-RPTMultiSelection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPTMultiSelection_Example.debug.xcconfig"; path = "Target Support Files/Pods-RPTMultiSelection_Example/Pods-RPTMultiSelection_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,9 +103,6 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				93E8B79023F1867C0084AC74 /* RPTMultiSelection.swift */,
-				93E8B79223F18B3E0084AC74 /* RPTMultiSelection.xib */,
-				9313DE8723F5952D00F24767 /* RPTMSCell.xib */,
 			);
 			name = "Example for RPTMultiSelection";
 			path = RPTMultiSelection;
@@ -133,6 +128,8 @@
 		607FACE91AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				939C59D023F6D5A600121CFD /* HowItWorks.gif */,
+				939C59CF23F6D5A600121CFD /* HowToUse.png */,
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -255,10 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939C59D223F6D5A600121CFD /* HowItWorks.gif in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				93E8B79323F18B3E0084AC74 /* RPTMultiSelection.xib in Resources */,
+				939C59D123F6D5A600121CFD /* HowToUse.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				9313DE8823F5952D00F24767 /* RPTMSCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E8B79123F1867C0084AC74 /* RPTMultiSelection.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

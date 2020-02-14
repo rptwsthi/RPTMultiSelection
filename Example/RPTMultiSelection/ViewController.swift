@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RPTMultiSelection
 
 class TheData {
     public static func datas () -> [TheData] {

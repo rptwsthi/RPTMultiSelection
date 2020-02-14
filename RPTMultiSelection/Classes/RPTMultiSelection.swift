@@ -63,14 +63,13 @@ class RPTMSDataSource {
     }
 }*/
 
-
-class IndicatorView : UIView {
+open class IndicatorView : UIView {
     override init(frame: CGRect) {
         super.init(frame:frame)
         self.setUI()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder:coder)
         self.setUI()
     }
@@ -88,7 +87,7 @@ class IndicatorView : UIView {
 }
 
 
-class RPTMSCell : UITableViewCell {
+open class RPTMSCell : UITableViewCell {
     @IBOutlet var selectionIndicator : IndicatorView?
     @IBOutlet var titleLabel : UILabel?
     
@@ -117,9 +116,9 @@ class RPTMSCell : UITableViewCell {
     }
 }
 
-class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
-    var delegate : RPTMultiSelectionDelegate!
-    var dataSource : RPTMultiSelectionDataSource!
+public class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
+    open var delegate : RPTMultiSelectionDelegate!
+    open var dataSource : RPTMultiSelectionDataSource!
     var selected : [IndexPath:Bool]? = [:]
     @IBOutlet var tableView : UITableView!
     @IBInspectable var indicatorColor : UIColor! = .green
@@ -135,7 +134,7 @@ class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
         return UINib(nibName: "RPTMultiSelection", bundle: nil).instantiate(withOwner: RPTMultiSelection.self, options: nil)[0] as! RPTMultiSelection
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         
         //Set table view up
@@ -152,11 +151,11 @@ class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    func reloadData() {
+    open func reloadData() {
         self.tableView.reloadData()
     }
     
-    func setupUI() {
+    open func setupUI() {
         var f = self.frame
         f.origin = CGPoint.zero
         tableView.frame = f
@@ -169,20 +168,24 @@ class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
     }
     
     //UITableViewDataSource
-    func numberOfSections(in tableView: UITableView) -> Int {
+    public func numberOfSections(in tableView: UITableView) -> Int {
         return dataSource.numberOfSection(in: self)
     }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.selectionView(self, numberOfRowInSection: section)
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         return dataSource.selectionView(self, cellForRowAt: indexPath)
     }
     
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return dataSource.selectionView(self, heightForRowAt: indexPath)
+    }
+    
     //UITableViewDelegate
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)
         if let c = cell as? RPTMSCell {
             let isi = !c.checked //is selected inverse
@@ -195,7 +198,7 @@ class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
     }
     
     //Support
-    func defaultCell(forRowAt indexPath: IndexPath, withTitle t: String?, checked:Bool = false) -> RPTMSCell {
+    open func defaultCell(forRowAt indexPath: IndexPath, withTitle t: String?, checked:Bool = false) -> RPTMSCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "c_multiSelection") as! RPTMSCell
         cell.checked = checked
         cell.titleLabel?.text = t
@@ -203,29 +206,29 @@ class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-protocol RPTMultiSelectionDelegate {
+public protocol RPTMultiSelectionDelegate {
     func selectionView(_ view:RPTMultiSelection, didChecked : Bool, cell : UITableViewCell?, at:IndexPath)
     func selectionView(_ view:RPTMultiSelection, didSelect cell : UITableViewCell?, at:IndexPath)
 }
 
-extension RPTMultiSelectionDelegate {
+public extension RPTMultiSelectionDelegate {
     func selectionView(_ view:RPTMultiSelection, didChecked : Bool, cell : UITableViewCell?, at:IndexPath) {}
     func selectionView(_ view:RPTMultiSelection, didSelect cell : UITableViewCell?, at:IndexPath){}
 }
 
-protocol RPTMultiSelectionDataSource {
+public protocol RPTMultiSelectionDataSource {
     func numberOfSection(in view:RPTMultiSelection) -> Int
     func selectionView(_ view:RPTMultiSelection, numberOfRowInSection section:Int) -> Int
     func selectionView(_ view:RPTMultiSelection, cellForRowAt indexPath:IndexPath) -> RPTMSCell
-    func selectionView(_ view:RPTMultiSelection, heightForRowAt indexPath:IndexPath) -> Float
+    func selectionView(_ view:RPTMultiSelection, heightForRowAt indexPath:IndexPath) -> CGFloat
 }
 
-extension RPTMultiSelectionDataSource {
+public extension RPTMultiSelectionDataSource {
     func numberOfSection(in view:RPTMultiSelection) -> Int {
         return 1
     }
     
-    func selectionView(_ view:RPTMultiSelection, heightForRowAt indexPath:IndexPath) -> Float {
+    func selectionView(_ view:RPTMultiSelection, heightForRowAt indexPath:IndexPath) -> CGFloat {
         return 44
     }
 }

@@ -26,7 +26,7 @@ This works mainly as default component such as UIPickerView  and UITableView. Yo
                        DESC
 
   s.homepage         = 'https://github.com/rptwsthi/RPTMultiSelection'
-  s.screenshots      = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots      = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rptwsthi' => 'awasthi.arp@gmail.com' }
   s.source           = { :git => 'https://github.com/rptwsthi/RPTMultiSelection.git', :tag => s.version.to_s }

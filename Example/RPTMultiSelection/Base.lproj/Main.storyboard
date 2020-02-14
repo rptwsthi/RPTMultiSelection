@@ -48,7 +48,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m5g-y4-DsG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="69J-vB-0Im" customClass="RPTMultiSelection" customModule="RPTMultiSelection_Example" customModuleProvider="target">
+                <view contentMode="scaleToFill" id="69J-vB-0Im" customClass="RPTMultiSelection" customModule="RPTMultiSelection">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

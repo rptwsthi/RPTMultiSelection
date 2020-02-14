@@ -1,0 +1,6 @@
+framework module RPTMultiSelection {
+  umbrella header "RPTMultiSelection-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RPTMultiSelection",
+  "version": "0.1.0",
+  "summary": "A short description of RPTMultiSelection.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rptwsthi/RPTMultiSelection",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rptwsthi": "arpit@technologies33.com"
+  },
+  "source": {
+    "git": "https://github.com/rptwsthi/RPTMultiSelection.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RPTMultiSelection/Classes/**/*"
+}

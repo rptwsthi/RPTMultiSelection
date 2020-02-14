@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RPTMultiSelection'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Multi-selection input view that helps creating custom selection input view.'
   
   # set the swift value

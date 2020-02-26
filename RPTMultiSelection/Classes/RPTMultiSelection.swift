@@ -169,7 +169,7 @@ public class RPTMultiSelection : UIView, UITableViewDelegate, UITableViewDataSou
     
     //UITableViewDataSource
     public func numberOfSections(in tableView: UITableView) -> Int {
-        return dataSource.numberOfSection(in: self)
+        return dataSource?.numberOfSection(in: self) ?? 0
     }
 
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
